@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'Proxi';
+    src: url(../font/Proxi.woff);
+    font-weight: 400;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Proxi';
+    font-size: 18px;
+    background-color: #d4d4d4;
+    
+    
+}
+a, a:visited {
+    color:inherit;
+ }
+ .block{
+width: 50%;
+height: 100%;
+ }
+ .block--left{
+     text-align: left;
+     left: 0;
+     color: white;
+     position: fixed;
+     background-image: url(../1.jpg);
+     background: cover;
+     
+
+ }
+ .skill{
+     font-size: 20px;
+ }
+ .main-name{
+     font-size: 28px;
+ }
+ .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(25, 25, 25, 0.49);
+    left: 0;
+    top: 0;
+}
+.half-border {
+    position: absolute;
+    bottom: -10px;
+    width: 40%;
+    left: 0;
+    border: 1px solid white;
+}
+.block--right .half-border {
+    border: 1px solid black;
+}
+.content{
+    margin-bottom: 50px;
+}
+.content_inner {
+    padding-top: 10px;
+}
+.project:first-child {
+    margin-bottom: 30px;
+}
+interests {
+    overflow: auto;
+}
+.interest {
+    width: 25%;
+    float: left;
+    max-width: 200px;
+    text-align: center;
+}
+.qual{
+    width: 33%;
+    float: left;
+    max-width: 200px;
+    text-align: center;
+}
+.skill{
+    width: 25%;
+    float: left;
+    max-width: 200px;
+    text-align: center;
+}
+.interest img {
+    display: block;
+    margin: 0 auto;
+}
+.qual img{
+    display: block;
+    margin: 0 auto;
+}
+.interest_level {
+    font-size: 13px;
+    margin: 10px 0;
+    display: inline-block;
+}
+.qual_level{
+    font-size: 15px;
+    margin: 10px 0;
+    display: inline-block;
+}
+.skill img{
+    display: block;
+    margin: 0 auto;
+}
+.meta-title {
+    font-size: 20px;
+    margin: 10px 0;
+    font-style: italic;
+    font-weight: bold;
+}
+.relative{
+    position: relative;
+}
+@media screen and (max-width: 768px) {
+    .block--left {
+        background-color: #4dfeee;
+        width: 100%;
+        height: 70vh;
+        position: relative
+    }
+}
+.block--right {
+    position: relative;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    
+}
+@media screen and (max-width: 768px) {
+    .block--right {
+        width: 100%;
+        height: auto;
+        position: static
+    }
+}
+
+.block__inner {
+    padding: 20px 40px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%
+    
+}
+@media screen and (max-width: 768px) {
+    .block__inner {
+        padding: 1.5625rem
+    }
+}
+block_title {
+    position: relative;
+}
+.block-content {
+    margin: 66% 0% 20%;
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+  .block-content {
+    position: absolute;
+    bottom: 15px;
+    margin: 0;
+  }
+}
+.block__social {
+    position: relative;
+    z-index: 200;
+}
+.block__social a {
+    text-decoration: none;
+    display: inline-block;
+    width: 35px;
+}
+.block__social__link {
+    position: relative;
+    overflow: hidden;
+    display: inline;
+    line-height: 1;
+    height: auto;
+    padding: .3125rem;
+    opacity: 0
+}
+.icons {
+    display: inline;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent
+}
+.btn_email {
+    display: inline-block;
+    color: white;
+}
+.skills .skill {
+    border: 1px solid #d4d4d4;
+    padding: 4px 10px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 5px 5px 5px 0;
+    z-index: 2;
+}
+.main-container{
+    background-color: #d4d4d4
+}
+.button {
+    border: 1px solid #d4d4d4;
+    background-color: inherit;
+    padding: 4px 10px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 5px 5px 5px 0;
+    left: auto;
+}
+.button:focus{
+  outline: none;
+}
+.copyright {
+  font-size: 15px;
+}
